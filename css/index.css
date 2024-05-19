@@ -152,7 +152,8 @@
     position: fixed;
     top: 0;
     z-index: 99999;
-
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .container-fluid {
@@ -200,6 +201,7 @@ a.active,
 
 .navbar-nav {
     background-color: var(--color-bg);
+    margin-top: 5px;
 }
 
 .fs-1 {
@@ -235,7 +237,8 @@ header .nav-link {
 .btn_header a {
     background-color: transparent;
     color: var(--color-success);
-    border-color: var(--color-success) transition: 0.3s ease-out;
+    border-color: var(--color-success);
+     transition: 0.3s ease-out;
     display: inline-block;
     line-height: 52px;
     font-weight: 700;
@@ -357,7 +360,7 @@ a.search-search span.fa:hover {
 
 }
 
-.search-right .pop-overlay:target {
+.search-right .pop-overlay:target{
     visibility: visible;
     opacity: 1;
 }
