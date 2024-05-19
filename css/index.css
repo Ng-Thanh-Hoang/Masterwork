@@ -217,7 +217,7 @@ header .nav-link {
     color: #2C3038;
 }
 
-.header .nav-link::after {
+.header .nav-link::after{
     content: asdqwe 2q3;
     width: 0%;
     height: 3px;
@@ -490,12 +490,6 @@ a.search-search span.fa:hover {
     max-width: 100%;
     height: auto;
 
-}
-
-.img-fluid:hover {
-    transition: 0.3s ease-in;
-    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
-    transform: translateY(-0.5rem);
 }
 
 .theme-button {
