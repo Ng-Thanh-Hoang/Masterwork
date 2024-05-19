@@ -1,0 +1,273 @@
+:root {
+    --pink: #dc4f72;
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.btn {
+    padding: 15px 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #dc4f72;
+}
+
+.text {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Text*/
+.btn-light:focus,
+.btn-light.focus {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
+}
+
+
+/*FAQs*/
+.general-FAQs .general__header p {
+    color: #b7b7b7;
+    padding: 30px 200px;
+}
+
+.accordion {
+    background-color: #131617;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 0px solid transparent;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.body-right__item {
+    border: 1px solid #333333;
+    background: #131617;
+}
+
+.active,
+.accordion:hover {
+    background-color: #131617;
+}
+
+.accordion:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    transition: all 1s;
+}
+
+.accordion.active:after {
+    content: "\f106";
+}
+
+.panel {
+    padding: 0 18px 0 18px;
+    background: #131617;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    border-radius: 0 0 5px 5px;
+}
+
+.panel p {
+    color: #969697;
+}
+
+.body-left {
+    transform: translateY(0);
+    transition: all 0.5s;
+}
+
+.body-left:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+/*Completed*/
+.completed {
+    background: #131617;
+}
+
+.completed__header p {
+    color: #b7b7b7;
+    margin: 0 280px;
+}
+
+.nav-link {
+    border-bottom: 3px white solid !important;
+}
+
+.nav-link,
+.nav-link:hover {
+    color: white;
+    padding: 20px 100px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--pink);
+    background-color: transparent;
+    border-bottom: 3px var(--pink) solid !important;
+}
+
+.btn-outline-primary {
+    color: #dc4f72;
+    border-color: #dc4f72;
+    padding: 15px 30px;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+}
+
+.tab-content .btn:hover {
+    background: var(--pink);
+    border-color: #dc4f72;
+}
+
+.row__right img {
+    transform: translateY(0);
+    transition: all 0.5s;
+}
+
+.row__right img:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.tab-pane {
+    padding: 0 170px;
+}
+
+@media only screen and (max-width:900px) {
+
+    /*Text*/
+    .text .container .col-md-6 {
+        width: 100%;
+    }
+
+    .text .container .col-md-6 h2 {
+        margin: 0 -48px;
+    }
+
+    .text .container .col-md-6 p {
+        margin: 0 -48px;
+    }
+
+    .text .container .col-md-6 .btn {
+        margin: 0 -48px;
+    }
+
+    /*FAQs*/
+    .general-FAQs .general__header {
+        width: 105%;
+    }
+
+    .general-FAQs .general__header p {
+        padding: 15px 0px;
+        text-align: center;
+    }
+
+    .general-FAQs .general__body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .general-FAQs .general__body .body-left {
+        width: 800px;
+        margin-bottom: 20px;
+    }
+
+    .general-FAQs .general__body .body-right {
+        width: 150%;
+    }
+
+    /*Completed*/
+    .completed .completed__header p {
+        margin: 0px 69px;
+    }
+
+    .completed .completed__body .nav-link {
+        padding: 10px 50px;
+    }
+
+    .completed .completed__body .tab-pane {
+        padding: 0 15px;
+    }
+
+    .row__left h2 {
+        font-size: 25px;
+    }
+
+    .row__left p {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+
+    .row__left .btn {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width:390px) {
+
+    /*Text*/
+    .text .container .col-md-6 {
+        text-align: center;
+    }
+
+    /*FAQs*/
+    .general-FAQs .general__header{
+        width: 100%;
+    }
+
+    .general-FAQs .general__body {
+        width: 100%;
+    }
+
+    .general-FAQs .general__body img{
+        margin: 0 -15px;
+    }
+    
+    .general-FAQs .general__body .body-right__item {
+        width: 160%;
+        position: relative;
+        right:110px;
+    }
+
+    /*Completed*/
+    .row__left {
+        text-align: center;
+    }
+}
