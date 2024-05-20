@@ -6,20 +6,253 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Bootstrap CSS v5.2.1 -->
+    <!--Font GG
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+     Bootstrap CSS v5.2.1 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!--Font GG-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+     Font awesome
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />-->
     <!-- Custome CSS-->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/dev_H.css">
+    <link rel="stylesheet" href="./css/dev_M.css">
+    
 </head>
 
-<body>
+<body id="myBody">
+    <!--darktheme-->
+    <!--dev_M-->
+    <!--header-->
+    <header class="hearder ">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-regular fa-handshake fs-1"></i>
+                    Masterwork
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end collapse show" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">Contact</a>
+                        </li>
+                        <!--search-->
+                        <div class="search-right HeaderSearch mr-lg-3">
+                            <a href="#" class="search-search" title="search"><span class="fa fa-search"
+                                    aria-hidden="true"></span></a>
+                            <div id="search" class="pop-overlay">
+                                <div class="popup">
+                                    <form action="" method="GET" class="search-box d-sm-flex">
+                                        <input type="search" placeholder="Enter Keyword" name="s" required="required"
+                                            autofocus="">
+                                        <button type="submit" class="btn">Search</button>
+                                    </form>
+                                    <a class="close" href="#">×</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" btn_header mr-lg-3 ">
+                            <a class="btn btn-outline-primary btn_header " href="#">
+                                Schedule a Demo
+                            </a>
+                        </div>
+                        <div class="container">
+                            <div style="width: 100%;" class="mx-auto py-3">
+                                <button class="btn" id="switchButton" title="Click to switch theme">
+                                    <i class="far fa-moon"></i>
+                                    <i class="far fa-sun"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--banner-->
+    <section class="banner">
+        <div class="container">
+            <div class="content">
+                <div class="container HomePageHeroHeader">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 content-left">
+                            <h3>
+                                We Execute Our Ideas From Start to Finish </h3>
+                            <p class="mt-3 mb-lg-5 mb-4">
+                                Building a beautiful interactive business for startups and innovative companies.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary buttontheme">Get Started</a>
+                        </div>
+                        <div class="col-lg-6 content-photo mt-lg-0 mt-5">
+                            <img src="./pic/main.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Why choose us-->
+    <section class="whyChooseUs">
+        <div class="container">
+            <div class="w3l-index2 py-5">
+                <div class="container py-md-3 HPWCU"></div>
+                <div class="header-section text-center mx-auto">
+                    <h6 class="sub-title">WHY CHOOSE US</h6>
+                    <h3>Tools for business startup to professional</h3>
+                    <p class="my-3"> Vestibulum ante ipsum p rimis in faucibus orci luctus et ultrices
+                        posuere cubilia
+                        Curae;
+                        Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+                        quam.</p>
+                </div>
+                <div class="row bottom_grids text-center justify-content-center">
+                    <div class="col-lg-4 col-md-6 mt-5">
+                        <div class="s-block">
+                            <a href="" class="d-block">
+                                <img src="./pic/interact.png" alt="" class="img-fluid" />
+                                <h3 class="my-3">Interactive </h3>
+                                <p class="">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+                                    tempora rerum
+                                    perspiciatis?
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5">
+                        <div class="s-block">
+                            <a href="" class="d-block">
+                                <img src="./pic/business.png" alt="" class="img-fluid" />
+                                <h3 class="my-3">
+                                    Business </h3>
+                                <p class="">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+                                    tempora rerum
+                                    perspiciatis? </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5">
+                        <div class="s-block">
+                            <a href="" class="d-block">
+                                <img src="./pic/inspiration.png" alt="" class="img-fluid" />
+                                <h3 class="my-3">
+                                    Inspiration </h3>
+                                <p class="">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+                                    tempora rerum
+                                    perspiciatis? </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about">
+        <div class="w3l-index3 py-5">
+            <div class="container py-lg-3 mt-3 HPAbout">
+                <div class="row align-items-center">
+                    <div class="col-sm-6 book-info pr-md-5">
+                        <h6 class="sub-title">
+                            ABOUT OUR COMPANY</h6>
+                        <h3 class="mb-md-4 mb-3">
+                            The Best Choice For Your Successful Business! </h3>
+                        <p class="mb-md-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et
+                            est
+                            repellendus illum harum quam nihil totam
+                            reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique
+                            reiciendis, ab
+                            est magnam esse nesciunt ea fuga facere
+                            voluptatem.</p>
+                        <a href="#about" class="btn btn-primary theme-button">
+                            Read More</a>
+                    </div>
+                    <div class="col-sm-6 pl-md-5 mt-sm-0 mt-5">
+                        <img src="./pic/about.png" class="img-fluid shadow img-curve" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--startNumber-->
+    <section class="startNumber">
+        <div class="container">
+            <section class="w3l-stats pb-5 pt-4" id="stats">
+                <div class="gallery-inner container pb-lg-3 HPStats">
+                    <div class="row stats-con justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="stats_info counter_grid">
+                                <h4>
+                                    Happy Customers </h4>
+                                <p class="counter" data-target="10458">
+                                    0 </p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
+                            <div class="stats_info counter_grid">
+                                <h4>
+                                    Winning Awards </h4>
+                                <p class="counter" data-target="890">
+                                    0 </p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6 mt-lg-0 mt-sm-5 mt-4">
+                            <div class="stats_info counter_grid">
+                                <h4>
+                                    Completed Projects </h4>
+                                <p class="counter" data-target="5345">
+                                    0 </p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--dev_M-->
+
+
+
+    <!--dev_H-->
     <!--Text-->
     <section class="text py-5 ">
         <div class="container px-5 py-5">
@@ -33,7 +266,7 @@
                         Corrupti exercitationem voluptatem ipsum iste consequuntur et vitae voluptas temporibus? Maxime
                         dolores amet voluptatum illo consequatur placeat fugit ducimus.
                     </p>
-                    <a href="#url"><button type="button" class="btn btn-light fs-6">Read More</button></a>
+                    <a href="#url"><button type="button" class="button btn btn-light fs-6">Read More</button></a>
                 </div>
             </div>
         </div>
@@ -131,22 +364,32 @@
             <div class="completed__body">
                 <ul class="nav nav-pills justify-content-center fs-4" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link active rounded-0 fw-bold" id="pills-project-one-tab" data-bs-toggle="pill" data-bs-target="#pills-project-one" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Project One</button>
+                        <button class="nav-link active rounded-0 fw-bold" id="pills-project-one-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-project-one" type="button" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Project One</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link rounded-0 fw-bold" id="pills-project-two-tab" data-bs-toggle="pill" data-bs-target="#pills-project-two" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Project Two</button>
+                        <button class="nav-link rounded-0 fw-bold" id="pills-project-two-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-project-two" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Project Two</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link rounded-0 fw-bold" id="pills-project-three-tab" data-bs-toggle="pill" data-bs-target="#pills-project-three" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Project Three</button>
+                        <button class="nav-link rounded-0 fw-bold" id="pills-project-three-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-project-three" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Project Three</button>
                     </li>
-                  </ul>
+                </ul>
 
-                  <div class="tab-content py-5" id="pills-tabContent">
-                    <div class="tab-pane fade show active " id="pills-project-one" role="tabpanel" aria-labelledby="pills-project-one-tab" tabindex="0">
-                        <div class="row">   
+                <div class="tab-content py-5" id="pills-tabContent">
+                    <div class="tab-pane fade show active " id="pills-project-one" role="tabpanel"
+                        aria-labelledby="pills-project-one-tab" tabindex="0">
+                        <div class="row">
                             <div class="row__left col-md-6 text-white">
                                 <h2>Why a visual identity system is more memorable</h2>
-                                <p class="fs-6">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. <br>consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                                <p class="fs-6">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores
+                                    praesentium nulla quibusdam repellendus. <br>consequatur minus aliquam corrupti
+                                    blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                                </p>
                                 <a href="#url" class="btn btn-outline-primary theme-button mt-3 fs-6">
                                     Know more</a>
                             </div>
@@ -156,45 +399,80 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="pills-project-two" role="tabpanel" aria-labelledby="pills-project-two-tab" tabindex="0">
-                        <div class="row"> 
+                    <div class="tab-pane fade" id="pills-project-two" role="tabpanel"
+                        aria-labelledby="pills-project-two-tab" tabindex="0">
+                        <div class="row">
                             <div class="row__right col-md-6">
                                 <img src="/img/b5.jpg" alt="" class="w-100 rounded-3">
-                            </div>  
+                            </div>
                             <div class="row__left col-md-6 text-white">
                                 <h2>Make website that looks Lorem, ipsum dolor.</h2>
-                                <p class="pt-4 fs-6">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. <br>consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                                <p class="pt-4 fs-6">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis
+                                    dolores praesentium nulla quibusdam repellendus. <br>consequatur minus aliquam
+                                    corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit
+                                    pariatur.</p>
                                 <a href="#url" class="btn btn-outline-primary theme-button fs-6">
                                     Know more</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="pills-project-three" role="tabpanel" aria-labelledby="pills-project-three-tab" tabindex="0">
-                        <div class="row"> 
+                    <div class="tab-pane fade" id="pills-project-three" role="tabpanel"
+                        aria-labelledby="pills-project-three-tab" tabindex="0">
+                        <div class="row">
                             <div class="row__left col-md-6 text-white">
                                 <h2>Make website that looks Lorem, ipsum dolor.</h2>
-                                <p class="pt-4 fs-6">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. <br>consequatur minus aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.</p>
+                                <p class="pt-4 fs-6">Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis
+                                    dolores praesentium nulla quibusdam repellendus. <br>consequatur minus aliquam
+                                    corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit
+                                    pariatur.</p>
                                 <a href="#url" class="btn btn-outline-primary theme-button mt-3 fs-6">
                                     Know more</a>
                             </div>
                             <div class="row__right col-md-6">
                                 <img src="/img/b6.jpg" alt="" class="w-100 rounded-3">
-                            </div>  
+                            </div>
                         </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </section>
+     <!--dev_H-->
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
-    <!--Bootstrap-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+    <script>
+        $(document).ready(function () {
+            $('.counter').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-target');
+
+                $({ countNum: $this.text() }).animate({
+                    countNum: countTo
+                },
+                    {
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function () {
+                            $this.text(Math.ceil(this.countNum));
+                        },
+                        complete: function () {
+                            $this.text(this.countNum);
+                        }
+                    });
+            });
+        });
+    </script>
 
     <!--Accodion-->
     <script>
@@ -213,6 +491,9 @@
             });
         }
     </script>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
+

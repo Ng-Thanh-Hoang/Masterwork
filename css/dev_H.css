@@ -70,11 +70,6 @@ h3 {
     background: #131617;
 }
 
-.active,
-.accordion:hover {
-    background-color: #131617;
-}
-
 .accordion:after {
     font-family: 'FontAwesome';
     content: '\f107';
@@ -121,7 +116,7 @@ h3 {
     margin: 0 280px;
 }
 
-.nav-link {
+.nav-pills .nav-link {
     border-bottom: 3px white solid !important;
 }
 
@@ -259,7 +254,7 @@ h3 {
     .general-FAQs .general__body img{
         margin: 0 -15px;
     }
-    
+
     .general-FAQs .general__body .body-right__item {
         width: 160%;
         position: relative;
@@ -271,3 +266,5 @@ h3 {
         text-align: center;
     }
 }
+
+
